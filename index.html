@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Pawsatch Dogbites</title>
+    <!-- Adobe Fonts -->
+    <!-- Barricada -->
+    <link rel="stylesheet" href="https://use.typekit.net/tur7srw.css">
+    <!-- Century Gothic Pro -->
+    <link rel="stylesheet" href="https://use.typekit.net/tur7srw.css">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-text">
+                    <h4 class="tertiary-heading-secondary">Wild Fish Jerkey</h4>
+                    <h1 class="primary-heading-primary">Pawsatch DogBites</h1>
+                    <p class="primary-text-grey">Tune-up Pup offers full in home services for rehabilitation and training for all K9’s. Both young and old! Our style of training is understanding and learning the way dogs think, and why they do what they do.</p>
+                    <div class="header-button">
+                        <div class="header-button-item">
+                            <a href="#about" class="btn-primary">Take A Walk</a>
+                        </div>
+                        <div class="header-button-item">
+                            <a href="#about" class="btn-secondary">Take A Walk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="img/puppy-treats-removebg-preview.png" alt="header image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/pawsatch-dogbites-logo-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="#header">Home</a>
+                <a class="nav__link" href="#about">About</a>
+                <a class="nav__link" href="#products">Products</a>
+                <a class="nav__link" href="#testimonials">Testimonials</a>
+                <a class="nav__link" href="branding.html">Branding</a>
+                <a class="btn-primary" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="primary-heading-primary text-align-center">Tasty Dog Bites</h2>
+        <h4 class="tertiary-heading-secondary text-align-center">The Pawsatch Way</h4>
+        <div class="about-box">
+            <div class="about-text">
+                <h2 class="secondary-heading-primary margin-bottom-2">Tasty Dog Bites</h2>
+                <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+                <p class="primary-text-grey margin-bottom-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+                <div class="about-button">
+                    <a href="#mission" class="btn-primary">Show Me More!</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/happy-puppies.jpg" alt="image">
+            </div>
+        </div>
+
+        <div class="about-box-2">
+            <div class="about-text">
+                <h2 class="secondary-heading-primary margin-bottom-2">Tasty Dog Bites</h2>
+                <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+                <p class="primary-text-grey margin-bottom-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+                <div class="about-button">
+                    <a href="#mission" class="btn-primary">Show Me More!</a>
+                </div>
+            </div>
+            <div class="about-image-2">
+                <img src="img/puppy-eating-treats.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner Section -->
+<section class="banner" id="banner">
+    <div class="container">
+        <div class="banner-box">
+            <div class="banner-text">
+                <h1 class="primary-heading-white margin-bottom-4">From The Mountains Of Utah</h1>
+                <p class="primary-text-white margin-bottom-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nesciunt cum natus quo ipsa reiciendis aut placeat, quam repellat dolorum omnis ipsum distinctio atque voluptate. Aut ducimus eligendi laudantium recusandae?</p>
+                <form name="banner" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="banner">
+                    <div class="banner-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="Email Address" required>
+                        <input type="submit" value="Submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+            <div class="banner-image">
+                <img src="img/Yuppies - Designing.png" alt="banner image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Product Section -->
+<section class="product" id="products">
+    <div class="container">
+        <h2 class="primary-heading-primary text-align-center">Our Homemade <br> Dogbites</h2>
+        <h4 class="tertiary-heading-secondary text-align-center">Wild Caught Fish Jerkey</h4>
+        <div class="product-box">
+
+            <div class="product-card">
+                <img src="img/puppy-treats-removebg-preview.png" alt="dogbites">
+                <div class="product-ratings">
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                </div>
+                <h3 class="tertiary-heading-primary">Product 1</h3>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="product-button">
+                    <a href="#" class="btn-primary">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/puppy-treats-removebg-preview.png" alt="dogbites">
+                <div class="product-ratings">
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                </div>
+                <h3 class="tertiary-heading-primary">Product 1</h3>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="product-button">
+                    <a href="#" class="btn-primary">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/puppy-treats-removebg-preview.png" alt="dogbites">
+                <div class="product-ratings">
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                    <div class="product-stars">
+                        <i class="material-icons">star</i>
+                    </div>
+                </div>
+                <h3 class="tertiary-heading-primary">Product 1</h3>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="product-button">
+                    <a href="#" class="btn-primary">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="primary-heading-primary text-align-center">Testimonials</h2>
+        <h4 class="tertiary-heading-secondary text-align-center">Our Customers</h4>
+        <div class="testimonials-box">
+
+            <div class="testimonials-card">
+                <h3 class="tertiary-heading-primary">Absolutely Delicious</h3>
+                <p class="primary-text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum tempora laboriosam dolorum inventore, tempore voluptatum!</p>
+                <h5 class="primary-text-primary">John Doe.</h5>
+            </div>
+
+            <div class="testimonials-card">
+                <h3 class="tertiary-heading-primary">Absolutely Delicious</h3>
+                <p class="primary-text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum tempora laboriosam dolorum inventore, tempore voluptatum!</p>
+                <h5 class="primary-text-primary">John Doe.</h5>
+            </div>
+
+            <div class="testimonials-card">
+                <h3 class="tertiary-heading-primary">Absolutely Delicious</h3>
+                <p class="primary-text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum tempora laboriosam dolorum inventore, tempore voluptatum!</p>
+                <h5 class="primary-text-primary">John Doe.</h5>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact padding-top-8 padding-bottom-8" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <div class="contact-box-text">
+                <h2 class="secondary-heading-white">Contact Us Now</h2>
+                <h4 class="tertiary-heading-secondary">Reach Out</h4>
+                <p class="primary-text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat maxime nemo voluptatum eveniet consectetur eius commodi vitae tenetur dolorum similique.</p>
+            </div>
+            <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+
+                <div class="contact-box1">
+                    <div class="contact-box1-item">
+                        <h5 class="tertiary-heading-white">First Name*</h5>
+                        <input type="text" name="First Name" id="name" class="input" placeholder="Full Name" required>
+                    </div>
+                    <div class="contact-box1-item">
+                        <h5 class="tertiary-heading-white">Phone Number*</h5>
+                        <input type="tel" name="Phone Number" id="phone number" class="input" placeholder="Phone Number" required>
+                    </div>
+                    <div class="contact-box1-item">
+                        <h5 class="tertiary-heading-white">Email*</h5>
+                        <input type="email" name="Email" id="name" class="input" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="contact-box3">
+                    <div class="contact-box3-item">
+                        <h5 class="tertiary-heading-white">Message*</h5>
+                        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <div class="contact-box-submit">
+                    <div class="contact-button">
+                    </div>
+                    <input type="submit" value="Submit" class="btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/pawsatch-dogbites-logo-02.png" alt="image">
+                <p class="primary-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p class="primary-text-white">Copyright © 2021 Pawsatch DogBites - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3 class="tertiary-heading-secondary margin-bottom-1">Site Map</h3>
+                <ul>
+                    <a href="#header"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#products"><li>Products</li></a>
+                    <a href="#testimonials"><li>Testimonials</li></a>
+                    <a href="branding.html"><li>Branding</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3 class="tertiary-heading-secondary mmargin-bottom-`">Social Media</h3>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3 class="tertiary-heading-secondary margin-bottom-1">Contact Info</h3>
+                <a href="tel:#"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:#"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------- MODALS -------------------- -->
+<!-- Boiler Plate -->
+<!-- <div id="target-content">
+    <a href="#" class="close"></a>
+    <div id="target-inner">
+      <h2>Modal Heading</h2>
+      <p>Modal Content</p>
+    </div>
+  </div> -->
+
+<!-- Services Details Modal -->
+<div id="services-details-content">
+    <a href="#services" class="close"></a>
+    <div id="services-details-inner">
+      
+        <!-- services Details Section -->
+        <section class="services-details padding-top-8 padding-bottom-8">
+            <div class="container">
+                <h4 class="tertiary-heading-primary margin-bottom-1">Full Package Details</h4>
+                <h2 class="primary-heading-primary margin-bottom-4">Puppy Packages</h2>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 1 | $399</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    2 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Traveling charge for over 35 miles Renton
+                </p>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 2 | $999</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    4 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($600) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    Traveling charge for over 50 miles Renton
+                </p>
+
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 3 | $2500</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    7 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($1200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    36 hour training and boarding ($1200) <br>
+                    E-collar and e-collar training ($400) <br>
+                    15% discount on all future trainings <br>
+                    No traveling charge for the greater Seattle area 
+                </p>
+        
+            </div>
+        </section>
+
+    </div>
+</div>
+<!-- Services Details Modal -->
+
+<!-- --------------------- MODALS -------------------- -->
+
+</body>
+</html>

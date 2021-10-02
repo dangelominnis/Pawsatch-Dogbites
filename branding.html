@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Pawsatch Dogbites</title>
+    <!-- Adobe Fonts -->
+    <!-- Barricada -->
+    <link rel="stylesheet" href="https://use.typekit.net/tur7srw.css">
+    <!-- Century Gothic Pro -->
+    <link rel="stylesheet" href="https://use.typekit.net/tur7srw.css">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <!-- <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-text">
+                    <h4 class="tertiary-heading-secondary">Wild Fish Jerkey</h4>
+                    <h1 class="primary-heading-primary">Pawsatch DogBites</h1>
+                    <p class="primary-text-grey">Tune-up Pup offers full in home services for rehabilitation and training for all K9’s. Both young and old! Our style of training is understanding and learning the way dogs think, and why they do what they do.</p>
+                    <div class="header-button">
+                        <div class="header-button-item">
+                            <a href="#about" class="btn-primary">Take A Walk</a>
+                        </div>
+                        <div class="header-button-item">
+                            <a href="#about" class="btn-secondary">Take A Walk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="img/puppy-treats-removebg-preview.png" alt="header image">
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/pawsatch-dogbites-logo-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="index.html">About</a>
+                <a class="nav__link" href="index.html">Products</a>
+                <a class="nav__link" href="index.html">Testimonials</a>
+                <a class="nav__link" href="branding.html">Branding</a>
+                <a class="btn-primary" href="index.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Branding Section -->
+<section class="branding">
+    <div class="container">
+        <img src="img/pawsatch-dogbites-package-01.png" alt="branding package">
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/pawsatch-dogbites-logo-02.png" alt="image">
+                <p class="primary-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p class="primary-text-white">Copyright © 2021 Pawsatch DogBites - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3 class="tertiary-heading-secondary margin-bottom-1">Site Map</h3>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="index.html"><li>About</li></a>
+                    <a href="index.html"><li>Products</li></a>
+                    <a href="index.html"><li>Testimonials</li></a>
+                    <a href="index.html"><li>Branding</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3 class="tertiary-heading-secondary mmargin-bottom-`">Social Media</h3>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3 class="tertiary-heading-secondary margin-bottom-1">Contact Info</h3>
+                <a href="tel:#"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:#"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------- MODALS -------------------- -->
+<!-- Boiler Plate -->
+<!-- <div id="target-content">
+    <a href="#" class="close"></a>
+    <div id="target-inner">
+      <h2>Modal Heading</h2>
+      <p>Modal Content</p>
+    </div>
+  </div> -->
+
+<!-- Services Details Modal -->
+<div id="services-details-content">
+    <a href="#services" class="close"></a>
+    <div id="services-details-inner">
+      
+        <!-- services Details Section -->
+        <section class="services-details padding-top-8 padding-bottom-8">
+            <div class="container">
+                <h4 class="tertiary-heading-primary margin-bottom-1">Full Package Details</h4>
+                <h2 class="primary-heading-primary margin-bottom-4">Puppy Packages</h2>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 1 | $399</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    2 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Traveling charge for over 35 miles Renton
+                </p>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 2 | $999</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    4 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($600) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    Traveling charge for over 50 miles Renton
+                </p>
+
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 3 | $2500</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    7 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($1200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    36 hour training and boarding ($1200) <br>
+                    E-collar and e-collar training ($400) <br>
+                    15% discount on all future trainings <br>
+                    No traveling charge for the greater Seattle area 
+                </p>
+        
+            </div>
+        </section>
+
+    </div>
+</div>
+<!-- Services Details Modal -->
+
+<!-- --------------------- MODALS -------------------- -->
+
+</body>
+</html>

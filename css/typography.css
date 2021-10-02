@@ -1,0 +1,128 @@
+.primary-heading-primary {
+    color: var(--color-primary);
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-family: barricada-pro, serif;
+}
+
+.primary-heading-white {
+    color: var(--color-white);
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-family: barricada-pro, serif;
+}
+
+.primary-heading-secondary {
+    background-image: var(--gradient-primary);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-family: barricada-pro, serif;
+}
+
+.secondary-heading-primary {
+    color: var(--color-primary);
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-family: barricada-pro, serif;
+}
+
+.secondary-heading-secondary {
+    background-image: var(--gradient-primary);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-family: barricada-pro, serif;
+}
+
+.secondary-heading-white {
+    color: var(--color-white);
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-family: barricada-pro, serif;
+}
+
+.tertiary-heading-primary {
+    color: var(--color-primary);
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-family: barricada-pro, serif;
+}
+
+.tertiary-heading-secondary {
+    background-image: var(--gradient-primary);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-family: barricada-pro, serif;
+}
+
+.tertiary-heading-white {
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-family: barricada-pro, serif;
+}
+
+.primary-text-secondary {
+    background-image: var(--gradient-primary);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.primary-text-grey {
+    color: #777;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.primary-text-white {
+    color: var(--color-white);
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
